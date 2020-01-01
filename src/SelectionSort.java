@@ -1,6 +1,6 @@
 public class SelectionSort
 {
-    static void SelectionSort(int[] arr)
+    static void selectionSort(int[] arr)
     {
         for(int i=0;i<arr.length-1;i++)
         {
@@ -20,7 +20,7 @@ public class SelectionSort
     public static void main(String[] args)
     {
         int[] ar={5,6,7,1,2,3};
-        SelectionSort(ar);
+        selectionSort(ar);
         for(int i=0;i<ar.length;i++)
             System.out.print(ar[i]+" ");
     }
