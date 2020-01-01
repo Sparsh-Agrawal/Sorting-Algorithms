@@ -23,6 +23,7 @@ public class BubbleSort
         }
     }
 
+    /*
     public static void main(String[] args)
     {
         BubbleSort b=new BubbleSort();
@@ -33,4 +34,5 @@ public class BubbleSort
             System.out.println(i);
         }
     }
+    */
 }
