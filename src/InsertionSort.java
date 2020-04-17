@@ -25,5 +25,5 @@ public class InsertionSort
             System.out.print(ar[i]+" ");
     }
      */
-    
+
 }
