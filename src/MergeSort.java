@@ -12,7 +12,6 @@ public class MergeSort {
 
         mergeSort(arr, low, mid);
         mergeSort(arr,mid+1, high);
-
         merge(arr, low, mid, high);
     }
 
