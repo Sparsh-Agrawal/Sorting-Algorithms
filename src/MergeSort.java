@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class MergeSort {
 
     private static void mergeSort(int[] arr, int low, int high) {
@@ -54,9 +52,12 @@ public class MergeSort {
         }
     }
 
+    /*
     public static void main(String[] args) {
         int[] arr = {0,6,4,2,7,-1,3,5,-5,7,3,1};
         mergeSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
+     */
+
 }
