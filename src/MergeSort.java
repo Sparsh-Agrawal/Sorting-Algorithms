@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class MergeSort {
 
     private static void mergeSort(int[] arr, int low, int high) {
-
         if(low>=high) {
             return;
         }
@@ -16,7 +15,6 @@ public class MergeSort {
     }
 
     private static void merge(int[] arr, int low, int mid, int high) {
-
         int[] brr = new int[high+1];
         int i = low;
         int j = mid+1;
