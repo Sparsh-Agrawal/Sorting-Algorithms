@@ -13,6 +13,13 @@ public class HeapSort {
             swap(arr, i, 0);
             int parent = 0;
             int maxChild = getMaxChild(arr, parent, i );
+            while (parent < i && arr[parent] < arr[maxChild]) {
+                swap(arr, maxChild, parent);
+                parent = maxChild;
+                maxChild = getMaxChild(arr, parent, i);
+                if(maxChild == 0)
+                    break;
+            }
         }
     }
 
