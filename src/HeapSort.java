@@ -17,7 +17,13 @@ public class HeapSort {
     }
 
     private static int getMaxChild(int[] arr, int parent, int lastSortedIndex) {
+        int result = 0;
+        int leftChild = (parent * 2) + 1;
+        int rightChild = (parent * 2) + 2;
+        if(leftChild < lastSortedIndex && rightChild < lastSortedIndex) {
 
+        }
+        return result;
     }
 
     private static void swap(int[] arr, int child, int parent) {
