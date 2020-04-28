@@ -21,7 +21,12 @@ public class HeapSort {
         int leftChild = (parent * 2) + 1;
         int rightChild = (parent * 2) + 2;
         if(leftChild < lastSortedIndex && rightChild < lastSortedIndex) {
-
+            if(arr[leftChild] > arr[rightChild]){
+                result = leftChild;
+            }
+            else {
+                result = rightChild;
+            }
         }
         return result;
     }
